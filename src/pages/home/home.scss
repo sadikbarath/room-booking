@@ -1,3 +1,12 @@
 page-home {
+    .room-card{
+        height: 15vh;
+        width: 100%;
+        margin: 0;
+    }
+    .two-cols {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
 
 }
