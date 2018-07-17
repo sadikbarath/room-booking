@@ -11,7 +11,7 @@
   <ion-grid>
     <ion-row class="two-cols">
       <ion-col col-3 *ngFor="let room of rooms">
-        <ion-card class="room-card vh-center">
+        <ion-card class="room-card vh-center" (click)="openRoom(room)">
           {{ room }}
         </ion-card>
       </ion-col>
